@@ -1,0 +1,47 @@
+{
+  "description": "Manages file staging.",
+  "dependencies": [
+
+  ],
+  "checksums": {
+    "spec/unit/puppet/parser/functions/staging_parse_spec.rb": "1ff21c0b7796a2d9f95fed44f34f63b6",
+    "spec/fixtures/hiera.yaml": "324e9873e29c1970850f01b0f64c0269",
+    "spec/defines/staging_file_spec.rb": "fa49ddea33c42a6817d7454ee96ca2b8",
+    "spec/defines/staging_extract_spec.rb": "76bc8d4002070e4bb512152a18f6e3f4",
+    "manifests/file.pp": "aa1259eea35c9a3328ce64fd3ab4ea8e",
+    "lib/facter/staging_http_get.rb": "2c27beb47923ce3acda673703f395e68",
+    "docs/file.html": "879efe671f96a8eaeb5fb023ced5b7ab",
+    "tests/extract.pp": "46e809199d82ef79461ce9e0bb9138a2",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "README.md": "934da28a3becb501e3f7a81410a17e69",
+    "manifests/init.pp": "9bee81a4cb2d944a5689f06b407bd5b3",
+    "tests/scope_defaults.pp": "b620b367fc13aad2ff6f09f0c18463ba",
+    "tests/init.pp": "d889d06d4cb307c38cba9267aaac978f",
+    "spec/unit/puppet/parser/functions/scope_defaults_spec.rb": "5745b3d7c9de45408a2694e3a53b01e2",
+    "lib/puppet/parser/functions/scope_defaults.rb": "da916d46f3ff3be8359f75c93c2b5532",
+    "docs/extract.html": "ddfc7718ed639b24861b5a1d68cf0b0c",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/extract.pp": "104899fb81f5ee0831826c07af3296ee",
+    "manifests/deploy.pp": "f2a3e783e69ab878ac2e115fdf897e52",
+    "docs/init.html": "c16ebedfb85ab41558ad2fdea679177d",
+    "spec/defines/staging_deploy_spec.rb": "df4f68d71bc13bc7e64107802080e867",
+    "files/sample.tar.gz": "eba24f899d8b439f5c461f728563ece6",
+    "docs/deploy.html": "d9342a62d811e8d331c83a9521d7cb60",
+    "tests/file.pp": "8588e9c8b5e2ca430271ba2045dfb286",
+    "tests/deploy.pp": "27e2deca3fd5353dc8aa37c9162b2368",
+    "Modulefile": "6e5f9ea66cf226ae3f4f32e4a7cea6ea",
+    "files/sample": "c668e2074cc870f9ef59b6b33ffda097",
+    "tests/staging_parse.pp": "bec31082b383ef5bf6f81e4e82ec3b94",
+    "lib/puppet/parser/functions/staging_parse.rb": "2fada58ceae48d599f00cd808e3153d0"
+  },
+  "summary": "File Staging",
+  "types": [
+
+  ],
+  "author": "nanliu",
+  "source": "git@github.com:nanliu/puppet-staging.git",
+  "version": "0.3.0",
+  "project_page": "https://github.com/nanliu/puppet-staging",
+  "license": "Apache License Version 2.0",
+  "name": "nanliu-staging"
+}

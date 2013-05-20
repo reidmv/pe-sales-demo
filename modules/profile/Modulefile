@@ -1,0 +1,12 @@
+name 'seteam-profile'
+version '0.0.8'
+
+author 'Puppet Labs SE Team'
+license 'Apache 2.0'
+project_page 'https://github.com/puppetlabs-seteam/puppet-module-profile'
+source 'https://github.com/puppetlabs-seteam/puppet-module-profile.git'
+summary 'Puppet Labs SE Team Profile Module'
+description 'Top-level profile-aggregator module to defining SE-Team-specific profiles'
+dependency 'stahnma/epel', '>= 0.0.3'
+dependency 'seteam/tomcat', '>= 0.0.6'
+dependency 'nanliu/staging', '>= 0.2.1'

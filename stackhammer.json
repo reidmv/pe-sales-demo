@@ -1,0 +1,39 @@
+{
+  "metaVersion": "1.1.7",
+  "accessKey": "Puppet Labs Demo",
+  "puppetVersion": "PUPPET_ENTERPRISE28",
+  "master": {
+    "agentRunInterval": 10,
+    "type": "C1_MEDIUM",
+    "deployState": "RUNNING",
+    "image": "ami-14aa2524",
+    "name": "master"
+  },
+  "environments": [
+    {
+      "siteLocation": "manifests",
+      "moduleLocations": [
+        "modules"
+      ],
+      "nodes": [
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63001"
+        },
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63002"
+        }
+      ],
+      "name": "production"
+    }
+  ],
+  "puppetLintEnabled": false,
+  "deploymentExpiry": 30
+}

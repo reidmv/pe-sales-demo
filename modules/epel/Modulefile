@@ -1,0 +1,9 @@
+name 'stahnma-epel'
+version '0.0.3'
+
+author 'stahnma'
+license 'Apache License, Version 2.0'
+project_page 'http://github.com/stahnma/puppet-module-epel'
+source 'http://github.com/stahnma/puppet-module-epel'
+summary 'Setup the EPEL package repo'
+description 'Setup the EPEL package repo on Centos/RHEL et all'
