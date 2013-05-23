@@ -29,6 +29,62 @@
           "deployState": "RUNNING",
           "image": "ami-14aa2524",
           "name": "centos63002"
+        },
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63003"
+        },
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63004"
+        },
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63005"
+        },
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63006"
+        },
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63007"
+        },
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63008"
+        },
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63009"
+        },
+        {
+          "role": "agent",
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-14aa2524",
+          "name": "centos63010"
         }
       ],
       "name": "production"
