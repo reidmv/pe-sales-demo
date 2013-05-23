@@ -91,5 +91,5 @@
     }
   ],
   "puppetLintEnabled": false,
-  "deploymentExpiry": 30
+  "deploymentExpiry": 240
 }
